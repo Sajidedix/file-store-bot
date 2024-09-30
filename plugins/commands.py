@@ -222,7 +222,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                         InlineKeyboardButton('🚀 New Anime Update🖥️', url="https://t.me/group_discd")]
+                         InlineKeyboardButton('🚀 Hindi Anime Channel 🖥️', url="https://t.me/NarutoPublicST")]
                     ]
                 )
             ) 
@@ -432,9 +432,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                                 [
                                                     InlineKeyboardButton('🖥️ Watch online 🖥️', url= stream)],  # web stream Link
                                                [
-                                                    InlineKeyboardButton('📁 Want File again ', url='https://t.me/aapna_Movies')],
+                                                    InlineKeyboardButton('📁 Want File again ', url='https://t.me/NarutoPublicST')],
                                                [
-                                                    InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/+ccx-5xVHyro3ZjNl')]
+                                                    InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/Sandvillage1')]
                                                   ]
             )
             ) 
