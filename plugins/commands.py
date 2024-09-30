@@ -60,7 +60,7 @@ async def start(client, message):
             InlineKeyboardButton('♨️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ♨️', url='https://t.me/Sandvillage1'),
             InlineKeyboardButton('🌀 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🌀', 'https://t.me/NarutoPublicST')
             ],[
-            InlineKeyboardButton('🚀 ᴘʀᴏᴍᴏᴛɪᴏɴ 🚀', url='')
+            InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ᴄʟᴏɴᴇ ʙᴏᴛ 🤖', callback_data='clone')
             ],[
             InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ 💁‍♀️', callback_data='help'),
             InlineKeyboardButton('🙃 ᴀʙᴏᴜᴛ ᴍᴇ 🙃', callback_data='about')
@@ -331,7 +331,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('♨️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ♨️', url='https://t.me/Sandvillage1'),
             InlineKeyboardButton('🌐 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🌐', url='https://t.me/NarutoPublicST')
             ],[
-            InlineKeyboardButton('🚀 ᴘʀᴏᴍᴏᴛɪᴏɴ 🚀', url='')
+            InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ᴄʟᴏɴᴇ ʙᴏᴛ 🤖', callback_data='clone')
             ],[
             InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ 💁‍♀️', callback_data='help'),
             InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ ᴍᴇ 🙃', callback_data='about')
