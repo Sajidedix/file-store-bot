@@ -56,7 +56,8 @@ CABOUT_TXT = """<b>ʜɪ ɪ ᴀᴍ ᴘᴇʀᴍᴀɴᴇɴᴛ ғɪʟᴇ sᴛᴏʀ�
 
 
 
-    CLONE_TXT = """<b>ʜᴇʟʟᴏ {}
+CLONE_TXT = """<b>ʜᴇʟʟᴏ {} 👋
+
     
 1) sᴇɴᴅ <code>/newbot</code> ᴛᴏ @BotFather
 2) ɢɪᴠᴇ ᴀ ɴᴀᴍᴇ ꜰᴏʀ ʏᴏᴜʀ ʙᴏᴛ.
