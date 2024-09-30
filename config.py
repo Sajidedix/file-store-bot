@@ -35,7 +35,7 @@ DB_NAME = environ.get("DB_NAME", "Cluster0")
 
 
 # Bot Information
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7927233081:AAHP8rlBz8Q8ngUCxuOZdPAKuL4N670j9RU")
 BOT_USERNAME = environ.get("BOT_USERNAME", "Anime_Builder_bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://i.ibb.co/PG890wf/image.jpg')).split() # Bot Start Picture
 
