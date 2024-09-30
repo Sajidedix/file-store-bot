@@ -230,7 +230,7 @@ async def start(client, message):
             await asyncio.sleep(AUTO_DELETE_TIME)
             await msg.delete()
             await g.delete()
-            await k.edit_text("<b>Your File/Video is successfully deleted!!! You Want Again [Get Here](https://t.me/aapna_Movies).</b>")
+            await k.edit_text("<b>Your File/Video is successfully deleted!!! You Want Again [Get Here](https://t.me/NarutoPublicST).</b>")
             await m.edit_text("<b>❤️‍🔥.</b>")
             await asyncio.sleep(1)
             await m.delete()
@@ -324,17 +324,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton( '💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@sastamarvel01?si=KiYYZ5mByFO-O_fl')
+            InlineKeyboardButton( '💝 ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ 💝', url='https://youtube.com/@lyrics__1m')
             ],[
-            InlineKeyboardButton( '💝 movies ', url='https://t.me/+ccx-5xVHyro3ZjNl')
+            InlineKeyboardButton( '🌀 ɴᴀʀᴜᴛᴏ sʜɪᴘᴘᴜᴅᴇɴ 🌀', url='https://t.me/+ama99OO1zs5kOWM1')
             ],[
-            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/+ccx-5xVHyro3ZjNl'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/aapna_Movies')
+            InlineKeyboardButton('♨️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ♨️', url='https://t.me/Sandvillage1'),
+            InlineKeyboardButton('🌐 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🌐', url='https://t.me/NarutoPublicST')
             ],[
-            InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')
+            InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ᴄʟᴏɴᴇ ʙᴏᴛ 🤖', callback_data='clone')
             ],[
-            InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ 💁‍♀️', callback_data='help'),
+            InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ ᴍᴇ 🙃', callback_data='about')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
