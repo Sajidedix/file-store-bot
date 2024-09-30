@@ -69,7 +69,7 @@ CLONE_TXT = """<b>ʜᴇʟʟᴏ {} 👋
 
 
 
-    HELP_TXT = """<b>💢 Hᴏᴡ Tᴏ Usᴇ Tʜɪs Bᴏᴛ ☺️
+HELP_TXT = """<b>💢 Hᴏᴡ Tᴏ Usᴇ Tʜɪs Bᴏᴛ ☺️
 
 🔻 /link - ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴠɪᴅᴇᴏ ᴏʀ ғɪʟᴇ ᴛᴏ ɢᴇᴛ sʜᴀʀᴀʙʟᴇ ʟɪɴᴋ
 
@@ -89,7 +89,7 @@ CLONE_TXT = """<b>ʜᴇʟʟᴏ {} 👋
 
 
 
-    CHELP_TXT = """<b>💢 Hᴏᴡ Tᴏ Usᴇ Tʜɪs Bᴏᴛ ☺️
+CHELP_TXT = """<b>💢 Hᴏᴡ Tᴏ Usᴇ Tʜɪs Bᴏᴛ ☺️
 
 🔻 /link - ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴠɪᴅᴇᴏ ᴏʀ ғɪʟᴇ ᴛᴏ ɢᴇᴛ sʜᴀʀᴀʙʟᴇ ʟɪɴᴋ
 
@@ -103,13 +103,13 @@ CLONE_TXT = """<b>ʜᴇʟʟᴏ {} 👋
 
 
 
-    LOG_TEXT = """<b>#NewUser
+LOG_TEXT = """<b>#NewUser
     
 ID - <code>{}</code>
 
 Nᴀᴍᴇ - {}</b>
 """
-    RESTART_TXT = """
+RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
 
 📅 Dᴀᴛᴇ : <code>{}</code>
