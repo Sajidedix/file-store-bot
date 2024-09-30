@@ -8,11 +8,7 @@ class script(object):
     
     CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
     
-Credit: More Content [Get Here](https://t.me/NarutoPublicST)
-
-
-sɪᴢᴇ ⚙️: {file_size} </b>""" 
-
+ 
 
 
     SHORTENER_API_MESSAGE = """<b>Tᴏ ᴀᴅᴅ ᴏʀ ᴜᴘᴅᴀᴛᴇ ʏᴏᴜʀ Sʜᴏʀᴛɴᴇʀ Wᴇʙsɪᴛᴇ API, /api (ᴀᴘɪ)
