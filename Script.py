@@ -8,10 +8,7 @@ class script(object):
     
     CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
     
-
-
-
- {} </b>""" 
+SIZE ⚙️: {file_size} </b>""" 
 
 
 
@@ -37,9 +34,9 @@ Cᴜʀʀᴇɴᴛ Sʜᴏʀᴛᴇɴᴇʀ API:</b> `{shortener_api}`"""
 ├⋗ 🤖 ᴍʏ ɴᴀᴍᴇ: {}
 ├⋗ 📝 ʟᴀɴɢᴜᴀɢᴇ: <a ᴘʏᴛʜᴏɴ𝟹</a>
 ├⋗ 📚 ʟɪʙʀᴀʀʏ: <a ᴄᴏᴍɪɴɢ</a>
-├⋗ 🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a @GaaraFx> sᴀᴊɪᴅ</a>
-├⋗ 👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ: <a https://t.me/Sandvillage1> sᴀɴᴅ ᴠɪʟʟᴀɢᴇ</a>
-├⋗ 📢 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ: <a https://t.me/NarutoPublicST> ɴᴀʀᴜᴛᴏ ᴘᴜʙʟɪᴄ</a></b>
+├⋗ 🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=@GaaraFx> sᴀᴊɪᴅ</a>
+├⋗ 👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ: <a href=https://t.me/Sandvillage1> sᴀɴᴅ ᴠɪʟʟᴀɢᴇ</a>
+├⋗ 📢 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/NarutoPublicST> ɴᴀʀᴜᴛᴏ ᴘᴜʙʟɪᴄ</a></b>
 ╚════════════════════════⦿
 """
 
@@ -49,9 +46,9 @@ Cᴜʀʀᴇɴᴛ Sʜᴏʀᴛᴇɴᴇʀ API:</b> `{shortener_api}`"""
 ├⋗ 🤖 ᴍʏ ɴᴀᴍᴇ: {}
 ├⋗ 📝 ʟᴀɴɢᴜᴀɢᴇ: <a ᴘʏᴛʜᴏɴ𝟹</a>
 ├⋗ 📚 ʟɪʙʀᴀʀʏ: <a ᴄᴏᴍɪɴɢ</a>
-├⋗ 🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a @GaaraFx> sᴀᴊɪᴅ</a>
-├⋗ 👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ: <a https://t.me/Sandvillage1> sᴀɴᴅ ᴠɪʟʟᴀɢᴇ</a>
-├⋗ 📢 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ: <a https://t.me/NarutoPublicST> ɴᴀʀᴜᴛᴏ ᴘᴜʙʟɪᴄ</a></b>
+├⋗ 🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=@GaaraFx> sᴀᴊɪᴅ</a>
+├⋗ 👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ: <a href=https://t.me/Sandvillage1> sᴀɴᴅ ᴠɪʟʟᴀɢᴇ</a>
+├⋗ 📢 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/NarutoPublicST> ɴᴀʀᴜᴛᴏ ᴘᴜʙʟɪᴄ</a></b>
 ╚════════════════════════⦿
 """
 
