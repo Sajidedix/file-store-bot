@@ -42,12 +42,12 @@ async def start(client, message):
         await db.add_user(message.from_user.id, message.from_user.first_name)
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('💝 ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@lyrics__1m')
+            InlineKeyboardButton('※ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ ※', url='https://youtube.com/@lyrics__1m')
             ],[
-            InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', url=f'https://t.me/{BOT_USERNAME}?start=clone')
+            InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', url=f'https://t.me/{BOT_USERNAME}?start=clone')
             ],[
-            InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ 🔻', callback_data='about')
+            InlineKeyboardButton('※ ʜᴇʟᴘ ※', callback_data='help'),
+            InlineKeyboardButton('※ ᴀʙᴏᴜᴛ ※', callback_data='about')
         ]]
         me2 = (await client.get_me()).mention
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -165,12 +165,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.delete()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('💝 ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ 💝', url='https://youtube.com/@lyrics__1m')
+            InlineKeyboardButton('※ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ ※', url='https://youtube.com/@lyrics__1m')
             ],[
-            InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', url=f'https://t.me/{BOT_USERNAME}?start=clone')
+            InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', url=f'https://t.me/{BOT_USERNAME}?start=clone')
             ],[
-            InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ 🔻', callback_data='about')
+            InlineKeyboardButton('※ ʜᴇʟᴘ ※', callback_data='help'),
+            InlineKeyboardButton('※ ᴀʙᴏᴜᴛ ※', callback_data='about')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -189,8 +189,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('🔒 Cʟᴏsᴇ', callback_data='close_data')
+            InlineKeyboardButton('※ ʜᴏᴍᴇ ※', callback_data='start'),
+            InlineKeyboardButton('※ ᴄʟᴏsᴇ ※', callback_data='close_data')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -206,8 +206,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('🔒 Cʟᴏsᴇ', callback_data='close_data')
+            InlineKeyboardButton('※ ʜᴏᴍᴇ ※', callback_data='start'),
+            InlineKeyboardButton('※ ᴄʟᴏsᴇ ※', callback_data='close_data')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
