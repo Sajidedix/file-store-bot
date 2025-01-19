@@ -344,7 +344,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )
         me2 = (await client.get_me()).mention
-        m=await message.reply_sticker("CAACAgUAAxkBAAIhuGTHNIDjN6W-9OgK2xPXQSiDYpm-AAIFAgACD_PRVn7ikCL5fe76HgQ") 
+        m=await message.reply_sticker("CAACAgUAAyEFAASU8qRhAAEEpCJnjEh9FcYyhVSdcUk8bz4NzIOwUgACIhEAAtYDWFbpjfNByBJr-R4E") 
         await asyncio.sleep(1)
         await m.delete()
         await query.message.edit_text(
@@ -359,8 +359,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "clone":
         buttons = [[
-            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('🔒 Cʟᴏsᴇ', callback_data='close_data')
+            InlineKeyboardButton('※ ʜᴏᴍᴇ ※', callback_data='start'),
+            InlineKeyboardButton('※ ᴄʟᴏsᴇ ※', callback_data='close_data')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -378,8 +378,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('🔒 Cʟᴏsᴇ', callback_data='close_data')
+            InlineKeyboardButton('※ ʜᴏᴍᴇ ※', callback_data='start'),
+            InlineKeyboardButton('※ ᴄʟᴏsᴇ ※', callback_data='close_data')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -409,7 +409,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             stream = f"{Var.URL}watch/{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
             download = f"{Var.URL}{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
 
-            m = await message.reply_sticker("CAACAgUAAxkBAAIhuGTHNIDjN6W-9OgK2xPXQSiDYpm-AAIFAgACD_PRVn7ikCL5fe76HgQ") 
+            m = await message.reply_sticker("CAACAgUAAyEFAASU8qRhAAEEpCJnjEh9FcYyhVSdcUk8bz4NzIOwUgACIhEAAtYDWFbpjfNByBJr-R4E") 
             await asyncio.sleep(1)
             await m.delete()
         
@@ -434,7 +434,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                                [
                                                     InlineKeyboardButton('📁 Want File again ', url='https://t.me/NarutoPublicST')],
                                                [
-                                                    InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/Sandvillage1')]
+                                                    InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/Sandvillage')]
                                                   ]
             )
             ) 
