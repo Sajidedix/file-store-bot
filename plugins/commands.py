@@ -53,17 +53,17 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton( '💝 ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ 💝', url='https://youtube.com/@lyrics__1m')
+            InlineKeyboardButton( '※ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ ※', url='https://youtube.com/@lyrics__1m')
             ],[
-            InlineKeyboardButton( '🌀 ɴᴀʀᴜᴛᴏ sʜɪᴘᴘᴜᴅᴇɴ 🌀', url='https://t.me/+ama99OO1zs5kOWM1')
+            InlineKeyboardButton( '※ ɴᴀʀᴜᴛᴏ sʜɪᴘᴘᴜᴅᴇɴ ※', url='https://t.me/+ama99OO1zs5kOWM1')
             ],[
-            InlineKeyboardButton('♨️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ♨️', url='https://t.me/Sandvillage1'),
-            InlineKeyboardButton('🌐 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🌐', url='https://t.me/NarutoPublicST')
+            InlineKeyboardButton('※ ɢʀᴏᴜᴘ ※', url='https://t.me/Sandvillage'),
+            InlineKeyboardButton('※ ᴄʜᴀɴɴᴇʟ ※', url='https://t.me/NarutoPublicST')
             ],[
-            InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ᴄʟᴏɴᴇ ʙᴏᴛ 🤖', callback_data='clone')
+            InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')
             ],[
-            InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ 💁‍♀️', callback_data='help'),
-            InlineKeyboardButton('🙃 ᴀʙᴏᴜᴛ ᴍᴇ 🙃', callback_data='about')
+            InlineKeyboardButton('※ ʜᴇʟᴘ ※', callback_data='help'),
+            InlineKeyboardButton('※ ᴀʙᴏᴜᴛ ※', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         me2 = (await client.get_me()).mention
@@ -304,8 +304,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.delete()
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('🔒 Cʟᴏsᴇ', callback_data='close_data')
+            InlineKeyboardButton('※ ʜᴏᴍᴇ ※', callback_data='start'),
+            InlineKeyboardButton('※ ᴄʟᴏsᴇ ※', callback_data='close_data')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -324,17 +324,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton( '💝 ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ 💝', url='https://youtube.com/@lyrics__1m')
+            InlineKeyboardButton( '※ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ ※', url='https://youtube.com/@lyrics__1m')
             ],[
-            InlineKeyboardButton( '🌀 ɴᴀʀᴜᴛᴏ sʜɪᴘᴘᴜᴅᴇɴ 🌀', url='https://t.me/+ama99OO1zs5kOWM1')
+            InlineKeyboardButton( '※ ɴᴀʀᴜᴛᴏ sʜɪᴘᴘᴜᴅᴇɴ ※', url='https://t.me/+ama99OO1zs5kOWM1')
             ],[
-            InlineKeyboardButton('♨️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ♨️', url='https://t.me/Sandvillage1'),
-            InlineKeyboardButton('🌐 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🌐', url='https://t.me/NarutoPublicST')
+            InlineKeyboardButton('※ ɢʀᴏᴜᴘ ※', url='https://t.me/Sandvillage'),
+            InlineKeyboardButton('※ ᴄʜᴀɴɴᴇʟ ※', url='https://t.me/NarutoPublicST')
             ],[
-            InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ᴄʟᴏɴᴇ ʙᴏᴛ 🤖', callback_data='clone')
+            InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')
             ],[
-            InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ 💁‍♀️', callback_data='help'),
-            InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ ᴍᴇ 🙃', callback_data='about')
+            InlineKeyboardButton('※ ʜᴇʟᴘ ※', callback_data='help'),
+            InlineKeyboardButton('※ ᴀʙᴏᴜᴛ ※', callback_data='about')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
