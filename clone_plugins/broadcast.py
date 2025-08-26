@@ -43,7 +43,7 @@ async def verupikkals(bot, message):
     owner = mongo_db.bots.find_one({'bot_id': id})
     ownerid = int(owner['user_id'])
     if ownerid != message.from_user.id:
-        await message.reply_text("ᴏɴʟʏ ᴏᴡɴᴇʀ ᴄᴏᴍᴍᴀɴᴅ❗ Get Access [Get Here](https://t.me/NarutoPublicST)")
+        await message.reply_text("ᴏɴʟʏ ᴏᴡɴᴇʀ ᴄᴏᴍᴍᴀɴᴅ❗ Get Access [Get Here](https://t.me/SANDVILLAGE)")
         return
     users = await db.get_all_users()
     b_msg = message.reply_to_message
