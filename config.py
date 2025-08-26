@@ -24,18 +24,18 @@ def is_enabled(value, default):
 # Owner Information
 API_ID = int(environ.get("API_ID", "10658015"))
 API_HASH = environ.get("API_HASH", "a0087bca748f86698c53d291c9e5b3af")
-ADMINS = int(environ.get("ADMINS", "6170962395"))
+ADMINS = int(environ.get("ADMINS", "7657218453"))
 
 # Database Information
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://helphm9:MO7vlO8DtXqezh3i@cluster0.mom8p.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://mongost57:xlH4BNb000ddttyi@cluster0.p5ysdor.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 CDB_NAME = environ.get("CDB_NAME", "Cluster0")
-DB_URI = environ.get("DB_URI", "mongodb+srv://sajideditz27:8aa5To5ymnvexRBb@cluster0.a2ity.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = environ.get("DB_URI", "mongodb+srv://secondmongo934:bWxPDTZwaRDeUbPC@cluster0.3tjt7pm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = environ.get("DB_NAME", "Cluster0")
 
 
 # Bot Information
-BOT_TOKEN = environ.get("BOT_TOKEN", "7927233081:AAHP8rlBz8Q8ngUCxuOZdPAKuL4N670j9RU")
-BOT_USERNAME = environ.get("BOT_USERNAME", "Anime_Builder_bot") # your bot username without @
+BOT_TOKEN = environ.get("BOT_TOKEN", "")
+BOT_USERNAME = environ.get("BOT_USERNAME", "UltimateStoreiBot") # your bot username without @
 PICS = (environ.get('PICS', 'https://i.ibb.co/PG890wf/image.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
@@ -43,8 +43,8 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002472308533"))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002353049842')).split()]
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1003050962582"))
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002958055070')).split()]
 
 
 # File Caption Information
@@ -63,7 +63,7 @@ class Var(object):
     name = str(getenv('name', 'filetolinkvjbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002303475949'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1003050962582'))
     PORT = int(getenv('PORT', 8080))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
