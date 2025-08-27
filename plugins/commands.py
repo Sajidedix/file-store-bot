@@ -357,9 +357,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
     
-    elif query.data == "clone":
+    elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('※ ʜᴏᴍᴇ ※', callback_data='start'),
+                  InlineKeyboardButton('※ ʜᴏᴍᴇ ※', callback_data='start'),
             InlineKeyboardButton('※ ᴄʟᴏsᴇ ※', callback_data='close_data')
         ]]
         await client.edit_message_media(
