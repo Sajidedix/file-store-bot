@@ -36,7 +36,7 @@ DB_NAME = environ.get("DB_NAME", "Cluster0")
 # Bot Information
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 BOT_USERNAME = environ.get("BOT_USERNAME", "UltimateStoreiBot") # your bot username without @
-PICS = (environ.get('PICS', 'https://envs.sh/tJO.mp4')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://envs.sh/to_.jpg/IMG20250827511.jpg https://envs.sh/toA.jpg/IMG20250827748.jpg https://envs.sh/top.jpg/IMG20250827234.jpg https://envs.sh/toT.jpg/IMG20250827727.jpg https://envs.sh/ton.jpg/IMG20250827724.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
 AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
