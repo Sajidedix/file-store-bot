@@ -12,7 +12,7 @@ async def gen_link_s(client: Client, message):
     if not replied:
         return await message.reply('Reply to a message to get a shareable link.')
     file_type = replied.media
-    if file_type not in [enums.MessageMediaType.VIDEO, enums.MessageMediaType.AUDIO, enums.MessageMediaType.DOCUMENT]:
+    if file_type not in [enums.MessageMediaType.VIDEO, enums.MessageMediaType.AUDIO, enums.MessageMediaType.PHOTO, enums.MessageMediaType.DOCUMENT]:
         return await message.reply("Reply to a supported media")
     if message.has_protected_content:
         return await message.reply("okDa")
