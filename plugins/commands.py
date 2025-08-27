@@ -357,7 +357,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
     
-    elif query.data == "help":
+    elif query.data == "clone":
         buttons = [[
                   InlineKeyboardButton('※ ʜᴏᴍᴇ ※', callback_data='start'),
             InlineKeyboardButton('※ ᴄʟᴏsᴇ ※', callback_data='close_data')
@@ -376,7 +376,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
 
     
-    elif query.data == "clone":
+    elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('※ ʜᴏᴍᴇ ※', callback_data='start'),
             InlineKeyboardButton('※ ᴄʟᴏsᴇ ※', callback_data='close_data')
