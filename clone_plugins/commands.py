@@ -77,7 +77,7 @@ async def start(client, message):
                 )
             filetype = msg.media
             file = getattr(msg, filetype.value)
-            title = @SANDVILLAGE  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'),.split)
+            title = '@SANDVILLAGE  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
             size=get_size(file.file_size)
             f_caption = f"<code>{title}</code>"
             if CUSTOM_FILE_CAPTION:
@@ -217,7 +217,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         me2 = (await client.get_me()).mention
         id = client.me.id
         owner = mongo_db.bots.find_one({'bot_id': id})
-        ownerid = int(owner['owner_id'])
+        ownerid = int(owner['user_name'])
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.CABOUT_TXT.format(me2, ownerid),
