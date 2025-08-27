@@ -67,7 +67,7 @@ async def start(client, message):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         me2 = (await client.get_me()).mention
-        m=await message.reply_sticker("CAACAgUAAyEFAASU8qRhAAEEpCJnjEh9FcYyhVSdcUk8bz4NzIOwUgACIhEAAtYDWFbpjfNByBJr-R4E") 
+        m=await message.reply_sticker("CAACAgUAAxkBAAElZ2Borkw\_mNyhxuaP-SMYs-Kg3y36OQACOQ8AArIqUVbDh7qBLxp7VTYE") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
@@ -344,7 +344,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )
         me2 = (await client.get_me()).mention
-        m=await message.reply_sticker("CAACAgUAAyEFAASU8qRhAAEEpCJnjEh9FcYyhVSdcUk8bz4NzIOwUgACIhEAAtYDWFbpjfNByBJr-R4E") 
+        m=await message.reply_sticker("CAACAgUAAxkBAAElZ2Borkw\_mNyhxuaP-SMYs-Kg3y36OQACOQ8AArIqUVbDh7qBLxp7VTYE") 
         await asyncio.sleep(1)
         await m.delete()
         await query.message.edit_text(
