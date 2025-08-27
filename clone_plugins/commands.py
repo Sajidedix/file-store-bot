@@ -77,7 +77,7 @@ async def start(client, message):
                 )
             filetype = msg.media
             file = getattr(msg, filetype.value)
-            title =get_name(file.file_name.split()))
+            title =get_name(file.file_name.split)
             size=get_size(file.file_size)
             f_caption = f"<code>{title}</code>"
             if CUSTOM_FILE_CAPTION:
