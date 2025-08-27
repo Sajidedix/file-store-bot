@@ -53,12 +53,12 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton( '※ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ ※', url='https://youtube.com/@lyrics__1m')
+            InlineKeyboardButton( '𝐒ᴧηԃ 友 𝐕𝛊ʅʅᴧɠҽ', url='https://t.me/SANDVILLAGE')
             ],[
-            InlineKeyboardButton( '※ ɴᴀʀᴜᴛᴏ sʜɪᴘᴘᴜᴅᴇɴ ※', url='https://t.me/+ama99OO1zs5kOWM1')
+            InlineKeyboardButton( 'ＩＭ 𖣘︎ ＵＣＨＩＨＡ', url='https://t.me/iMSASUKES7i')
             ],[
             InlineKeyboardButton('※ ɢʀᴏᴜᴘ ※', url='https://t.me/Sandvillage'),
-            InlineKeyboardButton('※ ᴄʜᴀɴɴᴇʟ ※', url='https://t.me/NarutoPublicST')
+            InlineKeyboardButton('※ ᴄʜᴀɴɴᴇʟ ※', url='https://t.me/Naruto_Shippuden_Hindi_HDR')
             ],[
             InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')
             ],[
@@ -222,7 +222,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                         InlineKeyboardButton('🚀 Hindi Anime Channel 🖥️', url="https://t.me/NarutoPublicST")]
+                         InlineKeyboardButton('🚀 Hindi Anime Channel 🖥️', url="https://t.me/SANDVILLAGE")]
                     ]
                 )
             ) 
@@ -324,12 +324,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton( '※ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ ※', url='https://youtube.com/@lyrics__1m')
+            InlineKeyboardButton( '𝐒ᴧηԃ 友 𝐕𝛊ʅʅᴧɠҽ', url='https://t.me/SANDVILLAGE')
             ],[
-            InlineKeyboardButton( '※ ɴᴀʀᴜᴛᴏ sʜɪᴘᴘᴜᴅᴇɴ ※', url='https://t.me/+ama99OO1zs5kOWM1')
+            InlineKeyboardButton( 'ＩＭ 𖣘︎ ＵＣＨＩＨＡ', url='https://t.me/iMSASUKES7i')
             ],[
             InlineKeyboardButton('※ ɢʀᴏᴜᴘ ※', url='https://t.me/Sandvillage'),
-            InlineKeyboardButton('※ ᴄʜᴀɴɴᴇʟ ※', url='https://t.me/NarutoPublicST')
+            InlineKeyboardButton('※ ᴄʜᴀɴɴᴇʟ ※', url='https://t.me/Naruto_Shippuden_Hindi_HDR')
             ],[
             InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')
             ],[
@@ -432,7 +432,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                                 [
                                                     InlineKeyboardButton('🖥️ Watch online 🖥️', url= stream)],  # web stream Link
                                                [
-                                                    InlineKeyboardButton('📁 Want File again ', url='https://t.me/NarutoPublicST')],
+                                                    InlineKeyboardButton('📁 Want File again ', url='https://t.me/Naruto_Shippuden_Hindi_HDR')],
                                                [
                                                     InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/Sandvillage')]
                                                   ]
