@@ -42,7 +42,7 @@ Cᴜʀʀᴇɴᴛ Sʜᴏʀᴛᴇɴᴇʀ API:</b> `{shortener_api}`"""
 
 ╭───────────⋗
 ├⋗ ᴍʏ ɴᴀᴍᴇ: {}
-├⋗ ᴏᴡɴᴇʀ: {full_name}
+├⋗ ᴏᴡɴᴇʀ: {}
 ├⋗ ɢʀᴏᴜᴘ: <a href=https://t.me/SANDVILLAGE>𝐒ᴧηԃ 友 𝐕𝛊ʅʅᴧɠҽ</a>
 ├⋗ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/Naruto_Shippuden_Hindi_HDR>ɴᴀʀᴜᴛᴏ ᴘᴜʙʟɪᴄ</a>
 ╰─────────────⋗</b>
@@ -110,6 +110,7 @@ Nᴀᴍᴇ - {}</b>
 ⏰ Tɪᴍᴇ : <code>{}</code>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
+
 
 
 
