@@ -23,7 +23,7 @@ async def clone(client, message):
 @Client.on_message((filters.regex(r'\d[0-9]{8,10}:[0-9A-Za-z_-]{35}')) & filters.private)
 async def on_clone(client, message):  
     try:
-        user_id = message.from_user.user_id
+        user_id = message.from_user.mention
         user_name = message.from_user.first_name
         bot_token = re.findall(r'\d[0-9]{8,10}:[0-9A-Za-z_-]{35}', message.text, re.IGNORECASE)
         bot_token = bot_token[0] if bot_token else None
