@@ -53,7 +53,7 @@ async def on_clone(client, message):
                 details = {
                     'bot_id': bot.id,
                     'is_bot': True,
-                    'user_name': first_name,
+                    'user_id': user_id,
                     'name': bot.first_name,
                     'token': bot_token,
                     'username': bot.username
