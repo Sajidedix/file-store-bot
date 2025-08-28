@@ -35,7 +35,7 @@ Cᴜʀʀᴇɴᴛ Sʜᴏʀᴛᴇɴᴇʀ API:</b> `{shortener_api}`"""
 ├⋗ ᴏᴡɴᴇʀ: <a href=t.me/iMSASUKES7i>ＩＭ 𖣘︎ ＵＣＨＩＨＡ</a>
 ├⋗ ɢʀᴏᴜᴘ: <a href=https://t.me/SANDVILLAGE>𝐒ᴧηԃ 友 𝐕𝛊ʅʅᴧɠҽ</a>
 ├⋗ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/Naruto_Shippuden_Hindi_HDR>ɴᴀʀᴜᴛᴏ ᴘᴜʙʟɪᴄ</a>
-╰───────────────⋗</b>
+╰──────────────⋗</b>
 """
 
     CABOUT_TXT = """<b>ʜɪ ɪ ᴀᴍ ᴘᴇʀᴍᴀɴᴇɴᴛ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ᴡɪᴛʜ ᴄʟᴏɴᴇ ғᴇᴀᴛᴜʀᴇ + ᴄᴜsᴛᴏᴍ ᴜʀʟ sʜᴏʀᴛɴᴇʀ ɪᴛ ᴍᴇᴀɴs ᴀɴʏ ᴜsᴇʀ ᴄᴀɴ sᴇᴛ ʜɪs ᴜʀʟ sʜᴏʀᴛɴᴇʀ ᴀɴᴅ + ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ.
@@ -45,7 +45,7 @@ Cᴜʀʀᴇɴᴛ Sʜᴏʀᴛᴇɴᴇʀ API:</b> `{shortener_api}`"""
 ├⋗ ᴏᴡɴᴇʀ: {}
 ├⋗ ɢʀᴏᴜᴘ: <a href=https://t.me/SANDVILLAGE>𝐒ᴧηԃ 友 𝐕𝛊ʅʅᴧɠҽ</a>
 ├⋗ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/Naruto_Shippuden_Hindi_HDR>ɴᴀʀᴜᴛᴏ ᴘᴜʙʟɪᴄ</a>
-╰───────────────⋗</b>
+╰──────────────⋗</b>
 """
 
 
@@ -110,6 +110,7 @@ Nᴀᴍᴇ - {}</b>
 ⏰ Tɪᴍᴇ : <code>{}</code>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
+
 
 
 
