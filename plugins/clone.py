@@ -24,7 +24,7 @@ async def clone(client, message):
 async def on_clone(client, message):  
     try:
         
-        user_name = message.from_user.username
+        user_id = message.from_user.user_id
         bot_token = re.findall(r'\d[0-9]{8,10}:[0-9A-Za-z_-]{35}', message.text, re.IGNORECASE)
         bot_token = bot_token[0] if bot_token else None
         bot_id = re.findall(r'\d[0-9]{8,10}', message.text)
@@ -53,7 +53,7 @@ async def on_clone(client, message):
                 details = {
                     'bot_id': bot.id,
                     'is_bot': True,
-                    'user_id':'user_id,
+                    'user_id': user_id,
                     'name': bot.first_name,
                     'token': bot_token,
                     'username': bot.username
