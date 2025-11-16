@@ -55,10 +55,10 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton( '𝐒ᴧηԃ 友 𝐕𝛊ʅʅᴧɠҽ', url='https://t.me/SANDVILLAGE')
             ],[
-            InlineKeyboardButton( 'ＩＭ 𖣘︎ ＵＣＨＩＨＡ', url='https://t.me/iMSASUKES7i')
+            InlineKeyboardButton( 'ＩＭ 𖣘︎ ＵＣＨＩＨＡ', url='https://t.me/iMSASUKESi')
             ],[
             InlineKeyboardButton('※ ɢʀᴏᴜᴘ ※', url='https://t.me/Sandvillage'),
-            InlineKeyboardButton('※ ᴄʜᴀɴɴᴇʟ ※', url='https://t.me/Naruto_Shippuden_Hindi_HDR')
+            InlineKeyboardButton('※ ᴄʜᴀɴɴᴇʟ ※', url='https://t.me/NARUTO_PUBLIC')
             ],[
             InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')
             ],[
@@ -230,7 +230,7 @@ async def start(client, message):
             await asyncio.sleep(AUTO_DELETE_TIME)
             await msg.delete()
             await g.delete()
-            await k.edit_text("<b>Your File/Video is successfully deleted!!! You Want Again [Get Here](https://t.me/NarutoPublicST).</b>")
+            await k.edit_text("<b>Your File/Video is successfully deleted!!! You Want Again [Get Here](https://t.me/SANDVILLAGE).</b>")
             await m.edit_text("<b>❤️‍🔥.</b>")
             await asyncio.sleep(1)
             await m.delete()
@@ -326,10 +326,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton( '𝐒ᴧηԃ 友 𝐕𝛊ʅʅᴧɠҽ', url='https://t.me/SANDVILLAGE')
             ],[
-            InlineKeyboardButton( 'ＩＭ 𖣘︎ ＵＣＨＩＨＡ', url='https://t.me/iMSASUKES7i')
+            InlineKeyboardButton( 'ＩＭ 𖣘︎ ＵＣＨＩＨＡ', url='https://t.me/iMSASUKESi')
             ],[
             InlineKeyboardButton('※ ɢʀᴏᴜᴘ ※', url='https://t.me/Sandvillage'),
-            InlineKeyboardButton('※ ᴄʜᴀɴɴᴇʟ ※', url='https://t.me/Naruto_Shippuden_Hindi_HDR')
+            InlineKeyboardButton('※ ᴄʜᴀɴɴᴇʟ ※', url='https://t.me/NARUTO_PUBLIC')
             ],[
             InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')
             ],[
