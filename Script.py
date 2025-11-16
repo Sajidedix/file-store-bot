@@ -32,9 +32,9 @@ Cᴜʀʀᴇɴᴛ Sʜᴏʀᴛᴇɴᴇʀ API:</b> `{shortener_api}`"""
 
 ╭─────────────⋗
 ├⋗ ᴍʏ ɴᴀᴍᴇ: {}
-├⋗ ᴏᴡɴᴇʀ: <a href=t.me/iMSASUKES7i>ＩＭ 𖣘︎ ＵＣＨＩＨＡ</a>
+├⋗ ᴏᴡɴᴇʀ: <a href=t.me/iMSASUKESi>ＩＭ 𖣘︎ ＵＣＨＩＨＡ</a>
 ├⋗ ɢʀᴏᴜᴘ: <a href=https://t.me/SANDVILLAGE>𝐒ᴧηԃ 友 𝐕𝛊ʅʅᴧɠҽ</a>
-├⋗ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/Naruto_Shippuden_Hindi_HDR>ɴᴀʀᴜᴛᴏ ᴘᴜʙʟɪᴄ</a>
+├⋗ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/NARUTO_PUBLIC>ɴᴀʀᴜᴛᴏ ᴘᴜʙʟɪᴄ</a>
 ╰──────────────⋗</b>
 """
 
@@ -42,9 +42,9 @@ Cᴜʀʀᴇɴᴛ Sʜᴏʀᴛᴇɴᴇʀ API:</b> `{shortener_api}`"""
 
 ╭─────────────⋗
 ├⋗ ᴍʏ ɴᴀᴍᴇ: {}
-├⋗ ᴏᴡɴᴇʀ: <a href=tg://settings/Owner>𝗢𝘄𝗻𝗲𝗿</a>
+├⋗ ᴏᴡɴᴇʀ: <a href=tg://settings/Owner>ᴏᴡɴᴇʀ</a>
 ├⋗ ɢʀᴏᴜᴘ: <a href=https://t.me/SANDVILLAGE>𝐒ᴧηԃ 友 𝐕𝛊ʅʅᴧɠҽ</a>
-├⋗ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/Naruto_Shippuden_Hindi_HDR>ɴᴀʀᴜᴛᴏ ᴘᴜʙʟɪᴄ</a>
+├⋗ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/NARUTO_PUBLIC>ɴᴀʀᴜᴛᴏ ᴘᴜʙʟɪᴄ</a>
 ╰──────────────⋗</b>
 """
 
@@ -110,6 +110,7 @@ Nᴀᴍᴇ - {}</b>
 ⏰ Tɪᴍᴇ : <code>{}</code>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
+
 
 
 
